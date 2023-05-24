@@ -1,21 +1,21 @@
 // This is the question funstions that contain questions and the answers. They are in multidimensional array with inner array elements
 var questions = [
   { 
-      question: "How do you write 'Hello World' in an alert box?", 
+      question: "How many wheels are there on a tricycle?", 
       answers: [
-          { text: "msg('Hello World')", correct: false },
-          { text: "alert('Hello World')" , correct: true },
-          { text: "prompt('Hello World')", correct: false },
-          { text: "alertBox('Hello World')", correct: false }
+          { text: "Two", correct: false },
+          { text: "Three" , correct: true },
+          { text: "Four", correct: false },
+          { text: "Ten", correct: false }
       ]
   },
   { 
-      question: "Which of the following function of Array object calls a function for each element in the array?", 
+      question: "2+2=", 
       answers: [
-          { text: "concat()", correct: false },
-          { text: "filter()", correct: false },
-          { text: "forEach()", correct: true },
-          { text: "split()", correct: false }
+          { text: "3", correct: false },
+          { text: "5", correct: false },
+          { text: "4", correct: true },
+          { text: "7", correct: false }
       ]
   },
   { 

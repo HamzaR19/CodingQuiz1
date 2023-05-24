@@ -101,7 +101,7 @@ function selectAnswer(e) {
         if (timeLeft <= 10) {
             timeLeft = 0;
         } else {
-            // If the aswer is wrong, deduct time by 10
+            // deduct time by 10 if answer is wrong
             timeLeft -= 10;
         }
     }
@@ -120,7 +120,7 @@ function selectAnswer(e) {
 };
 
 
-// Check and show the correct answer by set the buttons colors
+// Check and show the correct answer 
 function setStatusClass(element, correct) {
     clearStatusClass(element)
     if (correct) {
@@ -131,7 +131,7 @@ function setStatusClass(element, correct) {
 };
 
 
-// Remove all the classes
+// Remove classes
 function clearStatusClass(element) {
     element.classList.remove("correct");
     element.classList.remove("wrong");

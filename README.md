@@ -25,7 +25,7 @@ WHEN the game is over
 THEN I can save my initials and score
 
 ```md
-![alt text](assets/images/04-web-apis-homework-demo.gif)
+![](assets/images/04-web-apis-homework-demo.gif)
 ```
 
 Credits

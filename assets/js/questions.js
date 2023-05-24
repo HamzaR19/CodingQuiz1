@@ -19,30 +19,30 @@ var questions = [
       ]
   },
   { 
-      question: "How to write an IF statement for executing some code if 'i' is NOT equal to 8?", 
+      question: "what is the process of finding errors and fixing them within a program.", 
       answers: [
-          { text: "if (i != 8)", correct: true },
-          { text: "if i =! 8", correct: false },
-          { text: "if (i <> 8)", correct: false },
-          { text: "if (i !=== 8)", correct: false }
+          { text: "Debugging", correct: true },
+          { text: "Complining", correct: false },
+          { text: "Executing", correct: false },
+          { text: "Scanning", correct: false }
       ]
   },
   { 
-      question: "What is the correct way to write a JavaScript array?", 
+      question: "Kim has just constructed her first for loop within the Java language.  Which of the following is not a required part of a for loop?", 
       answers: [
-          { text: "var vegetable = (0:'kale', 1:'lettuce', 2:'spinach')", correct: false },
-          { text: "var vegetable = ['kale', 'lettuce', 'spinach']", correct: true },
-          { text: "var vegetable = (kale, lettuce, spinach)", correct: false },
+          { text: "Initialization", correct: false },
+          { text: "Variable", correct: true },
+          { text: "Condition", correct: false },
           { text: "None of the above", correct: false }
       ]
   },
   { 
-      question: "How do you round the number 102.456, to the nearest integer?",
+      question: "Is coding easy?",
       answers: [
-          { text: "Math.random(102.456)", correct: false },
-          { text: "Math.rnd(102.456)", correct: false },
-          { text: "round(102.456)", correct: false },
-          { text: "None of the above", correct: true }
+          { text: "Very Easy", correct: false },
+          { text: "Not Easy", correct: false },
+          { text: "Extremely Easy", correct: false },
+          { text: "Extremely Hard", correct: true }
       ]
   },
 ];
